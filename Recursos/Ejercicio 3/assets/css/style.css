@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url(../fonts/coolvetica\ rg.otf);
+}
+
+.contenedor-header {
+    margin: 0 0 30px 100px;
+}
+
+h1 {
+    font-family: 'coolvetica';
+    font-weight: 400;
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+.contenedor-main {    
+    margin: 10px 0 0 100px;
+}
+
+h2 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #04146c;
+}
+
+span {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+}
+
+.contenedor-seccion {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 0 0 50px;
+}
+
+.contenedor-div {
+    background-color: #eff2ff;
+    width: 25%;
+    padding: 1em;
+    border: 2px #eff2ff;
+    margin: 30px;
+    padding: 30px;
+}
+
+.estrellas {
+    width: 30%;
+}
+
+.nombre {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #04146c;
+    margin: 15px 0;
+}
+
+.titulo-div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #04146c;
+    margin-top: 40px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #04146c;
+    margin: 0 0 50px 0;
+}
