@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+/* font-family: 'Mulish', sans-serif; */
+
+.contenedor-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 70px 0 70px;
+    
+}
+
+.contenedor-div-imagen {
+    position: relative;
+    width: 80%;
+    margin-bottom: 350px;
+}
+
+.imagen-foto {
+    position: absolute;
+    border: #0a2ff1 solid;
+    left: 100px;
+    width: 40%;
+    height: 500px;
+    z-index: 1;
+}
+
+.imagen-pattern {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    z-index: -1;
+}
+
+.contenedor-div {
+    margin-top: 100px;
+}
+
+.titulo-secundario {
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #0a2ff1;
+}
+
+.titulo {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: #0a2ff1;
+}
+
+.parrafo {
+    font-family: 'Mulish', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #04146c;
+}
+
+
+span {
+    font-family: 'Mulish', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #04146c;
+}
+
+.boton {
+    font-family: 'Mulish', sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    color: white;
+    background-color: #0a2ff1;
+    margin-top: 30px;
+    width: 320px;
+    height: 60px;
+    border: none;
+}
