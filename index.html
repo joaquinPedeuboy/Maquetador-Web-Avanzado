@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+            <img class="imagen-fondo" src="/Recursos/Ejercicio 1/fondo (1).jpg" alt="fondo">
+            <h1 class="titulo-fondo">Bienvenidos a mi Portafolio</h1>
+    </header>
+
+    <main>
+        <div class="contenedor-subtitulo">
+            <h2 class="subtitulo">¿Quieres saber mas sobre mi experiencia laboral?</h2>
+            <p>Coloca el maouse sobre mi fotografia</p>
+        </div>
+
+        <div class="contenedor-fotografia-cv">
+            <img id="fotografia" src="Recursos/Ejercicio 1/foto.png" alt="foto" class="imagen-foto">
+            <div id="cv">
+                <h2>Mi experiencia laboral:</h2>
+                <h3>2020</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa tenetur asperiores aut consectetur quasi iusto architecto corporis? Possimus vel ratione dolor dicta, qui assumenda voluptas, libero nemo, voluptate ipsam eveniet.</p>
+                <h3>2021</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos debitis unde natus omnis! Dolor, aperiam, esse iste quod sequi odit, praesentium fugit error excepturi itaque quo officiis fuga possimus explicabo.</p>
+                <h3>2022</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et magni animi quo possimus recusandae totam, sint, deleniti distinctio accusamus facere minima nisi consequatur nam libero officia consequuntur qui tenetur ipsum!</p>
+                
+                <a href="#">Ver mas!</a>
+    
+            </div>
+        </div>
+        
+        
+    </main>
+
+    
+<script>
+    var fotografia = document.getElementById('fotografia');
+    var cv = document.getElementById('cv');
+
+    fotografia.addEventListener('mouseover', function() {
+        cv.style.visibility = 'visible';
+    });
+
+    fotografia.addEventListener('mouseout', function() {
+        cv.style.visibility = 'hidden';
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body{
+    margin: 0%;
+}
+.imagen-fondo {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+main {
+    margin: 30px;
+}
+.contenedor-fotografia-cv {
+    position: absolute;
+}
+
+.header{
+    margin: 0 30px 30px 30px;
+    height: 335px;
+    overflow: hidden;
+    position: relative;
+}
+.titulo-fondo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background-color: white;
+    font-size: 3em;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    mix-blend-mode: screen;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+#cv {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: pink;
+    border: 2px;
+    padding: 50px;
+    z-index: 1;
+    width: 65%;
+    height: 58.2rem;
+}
+
+.imagen-foto {
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    color: black;
+}
+
+.contenedor-subtitulo {
+    margin: 0 0 30px 0;
+    height: 400%;
+
+}

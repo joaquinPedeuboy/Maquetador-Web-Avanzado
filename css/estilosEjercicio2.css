@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+
+.contenedor {
+    display: grid;
+    font-family: 'Dongle', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1{
+    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.div-uno {
+    background-color: orange;
+    padding: 15px;
+    width: 50%;
+    margin: 10px;
+    animation: 3s moov;
+}
+
+.div-dos {
+    background-color: palegoldenrod;
+    padding: 15px;
+    width: 50%;
+    margin: 10px;
+    animation: 6s moov;
+}
+
+.div-tres {
+    background-color: pink;
+    padding: 15px;
+    width: 50%;
+    margin: 10px;
+    animation: 9s moov;
+}
+
+@keyframes moov {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
