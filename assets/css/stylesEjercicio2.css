@@ -2,6 +2,12 @@
 
 /* font-family: 'Mulish', sans-serif; */
 
+:root {
+    --titulo-fuente: 6rem;
+    --card-title-fuente: 2rem;
+    --card-text-fuente: 1.5rem;
+}
+
 @media screen and (max-width:992px) {
     .container-fluid {
         display: grid;
@@ -83,11 +89,11 @@
     }
 
     .card-title {
-        font-size: 2rem;
+        font-size: var(--card-title-fuente);
     }
 
     .card-text {
-        font-size: 1.5rem;
+        font-size: var(--card-text-fuente);
     }
 }
 .header {
@@ -98,7 +104,7 @@
 .titulo {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
-    font-size: 6rem;
+    font-size: var(--titulo-fuente);
     color: #0a2ff1;
 }
 
