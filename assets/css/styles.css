@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/* font-family: 'Mulish', sans-serif; */
+
+@media screen and (min-width:0px) {
+
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container-fluid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+}
+
+@media screen and (min-width:992px) {
+    .container-fluid {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+}
+.header{
+    margin: 50px;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 53px;
+    color: #3957f1;
+}
+
+.card {
+    border: none;
+    box-shadow: 3px 4px 4px -2px #797B7C;
+    /* width: 20%; */
+}
+
+.card-text {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #15163d;
+    text-align: center;
+}

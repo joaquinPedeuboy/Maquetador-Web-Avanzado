@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/* font-family: 'Mulish', sans-serif; */
+
+@media screen and (max-width:992px) {
+    .container-fluid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .card {
+        margin: 30px;
+    }
+
+    .card-img-overlay {
+        text-align: center;
+        top: 140px;
+    }
+
+    .titulo-tarjeta {
+        top: 140px;
+    }
+
+    .card-title {
+        font-size: 1.8rem;
+    }
+
+    .card-text {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        margin: 5px;
+        margin-bottom: 10px;
+    }
+
+    .card-img-overlay {
+        text-align: center;
+        top: 140px;
+    }
+
+    .titulo-tarjeta {
+        top: 140px;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        margin: 30px;
+    }
+
+    .card-img-overlay {
+        text-align: center;
+        top: 95px;
+    }
+
+    .titulo-tarjeta {
+        top: 130px;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+}
+.header {
+    margin: 30px;
+    text-align: start;
+}
+
+.titulo {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    color: #0a2ff1;
+}
+
+.card-title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-text {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+
