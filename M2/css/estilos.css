@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/* font-family: 'Mulish', sans-serif; */
+
+:root {
+    --azul: #04146c;
+    --celeste: #0a2ff1;
+}
+
+@media screen and (max-width:768px) {
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        margin: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+.contenedor-header {
+    text-align: center;
+    margin: 30px 30px 0 30px;
+}
+
+.titulo-principal {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--azul);
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+
+.card-body {
+    padding: 0;
+    width: 500px;
+}
+
+.card-title {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--celeste);
+}
+
+.card-subtitle {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--azul);
+}
+
+.card-text {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--azul);
+}
+
+.btn-primary {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--azul);
+    border: var(--azul) solid 2px;
+    background-color: white;
+    border-radius: 0%;
+}

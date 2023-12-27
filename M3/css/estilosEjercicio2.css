@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,900;1,400&display=swap');
+
+/* font-family: 'Source Sans 3', sans-serif; */
+:root {
+    --azul: #04146c;
+}
+
+@media screen and (max-width:768px) {
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .img-fluid {
+        width: 100%;
+        padding: 30px;
+        height: auto;
+    }
+
+    .flex-shrink-1 {
+        text-align: center;
+    }
+
+    .parrafo {
+        text-align: start;
+        width: 90%;
+    }
+
+    .boton {
+        margin: 0 50px 0;
+        padding: 0%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container-fluid {
+        margin: 30px;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .img-fluid {
+        width: 80%;
+        margin-left: 80px;
+    }
+
+    .parrafo {
+        width: 88%;
+    }
+
+    .boton {
+        padding: 0.5rem;
+    }
+}
+
+.titulo {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 900;
+    font-size: 83px;
+    color: var(--azul);
+}
+
+.parrafo {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: var(--azul);
+}
+
+span {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 21px;
+    color: var(--azul);
+}
+
+.btn {
+    font-family: 'Source Sans 3', sans-serif;
+    font-variant: small-caps;
+    font-size: 19px;
+    background-color: var(--azul);
+    width: 150px;
+    border-radius: 0;
+}
+
+
