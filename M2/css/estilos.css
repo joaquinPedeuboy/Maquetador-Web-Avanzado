@@ -46,7 +46,11 @@
 
 .card-body {
     padding: 0;
-    width: 500px;
+    /* width: 500px; */
+}
+
+.card-img-top {
+    max-width: 60%;
 }
 
 .card-title {
