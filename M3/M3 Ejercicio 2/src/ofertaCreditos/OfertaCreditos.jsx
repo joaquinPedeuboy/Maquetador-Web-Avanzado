@@ -88,6 +88,11 @@ const resetPage = () => {
                             {datos.map(initialValues => <ResultInteres initialValues={initialValues} key={initialValues.id} />)}
                         </tbody>
                     </Table>
+                    <div className="d-flex justify-content-center mb-3">
+                        <Button variant="success" size="lg" onClick={resetPage}>
+                            Resetear
+                        </Button>
+                    </div>
                 </div>
             )}
 
@@ -95,9 +100,6 @@ const resetPage = () => {
                 <div className="d-grid gap-2">
                     <Button variant="dark" size="lg" onClick={handleInteres}>
                         Calcular Interes
-                    </Button>
-                    <Button variant="secondary" size="lg" onClick={resetPage}>
-                        Resetear
                     </Button>
                 </div>
             </Container>
